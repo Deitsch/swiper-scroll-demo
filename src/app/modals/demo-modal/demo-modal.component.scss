@@ -16,7 +16,6 @@
     background-color: yellow;
 }
 
-
 .wrapper {
     height: 100%;
     display: flex;
@@ -24,4 +23,8 @@
     > div {
         flex-grow: 1;
     }
+}
+
+swiper-slide {
+    overflow-y: scroll;
 }
