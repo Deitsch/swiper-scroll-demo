@@ -1,0 +1,27 @@
+.s1 {
+    background-color: red;
+}
+
+.s2 {
+    background-color: green;
+}
+
+.s3 {
+    background-color: blue;
+}
+
+.spacer {
+    height: 1000px;
+    width: 10px;
+    background-color: yellow;
+}
+
+
+.wrapper {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    > div {
+        flex-grow: 1;
+    }
+}
